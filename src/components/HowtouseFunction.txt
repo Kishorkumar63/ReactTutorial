@@ -1,0 +1,3 @@
+in onClick event => in function Calling Method if there Is no parameter Means you call Only call FUNCTION NAME Only
+in onClick event => in function Calling Method if there Is  parameter Means you call Only call FUNCTION  like  {()=>myFun("Hello")} Only
+       

@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Bmi from "./components/BMICalculator/Bmi";
+import { QrCode } from "./components/QRcode/QrCode";
+import { Props } from "./components/props/Props";
+import { PropsChildren } from "./components/props/PropsChildren";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Props name="Kishor Kumar" age={20} isMarried={true}/>
+    <Props name="Kumar" age={20} isMarried={false}/>
+    <Props name="Kumar" />
+    <PropsChildren>
+      <p>Para 1</p>
+      <p>Para 2</p>
+    </PropsChildren> */}
+
+      {/* <QrCode /> */}
+<Bmi/>
+
     </div>
   );
 }

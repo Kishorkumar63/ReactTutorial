@@ -1,0 +1,22 @@
+What is React js ?
+
+*.React Js is javascript Library For Building Frontend Application or User Interfaces (UI)
+*. React Js allows us to create reusable UI Components
+*.Components are the Building blocks of any React app 
+*. It is Craeted BY Facebook
+
+
+Advantage
+ reusable Components
+ open Source 
+ Fast and Efficient
+ work in Browser
+ large Community
+
+
+// One Component Can Only return one Component  
+
+
+
+camelcase=>onClick
+pasacalcase=>Kishorkumar
