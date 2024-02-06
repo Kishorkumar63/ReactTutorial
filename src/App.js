@@ -3,6 +3,7 @@ import Bmi from "./components/BMICalculator/Bmi";
 import { QrCode } from "./components/QRcode/QrCode";
 import { Props } from "./components/props/Props";
 import { PropsChildren } from "./components/props/PropsChildren";
+import Effect from "./components/useEFFECT/Effect";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
     </PropsChildren> */}
 
       {/* <QrCode /> */}
-<Bmi/>
+{/* <Bmi/> */}
+<Effect/>
 
     </div>
   );
