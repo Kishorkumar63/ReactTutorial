@@ -1,5 +1,6 @@
 import "./App.css";
 import Bmi from "./components/BMICalculator/Bmi";
+import Password from "./components/Passworgenerator/Password";
 import { QrCode } from "./components/QRcode/QrCode";
 import { Props } from "./components/props/Props";
 import { PropsChildren } from "./components/props/PropsChildren";
@@ -18,7 +19,9 @@ function App() {
 
       {/* <QrCode /> */}
 {/* <Bmi/> */}
-<Effect/>
+{/* <Effect/> */}
+
+<Password/>
 
     </div>
   );
