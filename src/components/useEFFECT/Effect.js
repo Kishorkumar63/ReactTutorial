@@ -32,17 +32,15 @@ const Effect = () => {
   // },[])
 
   //Rerender CleanUp Code
-  // useEffect(()=>{
+  //  useEffect(()=>{
   // console.log("Re-render");
   // return ()=>console.log("Re-render cleanUp");
   // })
 
   // State  Counter Clean Up Code
-  useEffect(() => {
-    console.log("I am State Counter");
-    return () => console.log("State Counter  cleanUp");
-  }, [count]);
-
+//  useEffect(()=>{
+//   console.log("haii");
+//  },[count])
   return (
     <div>
       <h3>Count : {count}</h3>
