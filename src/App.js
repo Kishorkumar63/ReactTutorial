@@ -7,8 +7,12 @@ import { QrCode } from "./components/QRcode/QrCode";
 import { Props } from "./components/props/Props";
 import { PropsChildren } from "./components/props/PropsChildren";
 import Effect from "./components/useEFFECT/Effect";
-
 import { Calender } from "./components/Calender/Calender";
+import Useref from "./components/UseRef/Usestate";
+import { Userefer } from "./components/UseRef/Useref";
+import FoucsRef from "./components/UseRef/FoucsRef";
+import Callback from "./components/ColorPicker/Callback";
+import { Colorpicker } from "./components/ColorPicker/Colorpicker";
 
 function App() {
   return (
@@ -24,7 +28,11 @@ function App() {
       {/* <Bmi/> */}
       {/* <Effect/> */}
       {/* <Password/> */}/{/* <Pratice/> */}
-      <Calender />
+      {/* <Calender /> */}
+      {/* <Useref/> */}
+      {/* <Userefer/> */}
+      {/* <FoucsRef/> */}
+      <Colorpicker />
     </div>
   );
 }
