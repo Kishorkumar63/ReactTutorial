@@ -1,0 +1,2 @@
+useContext is react hook for accesing shared values across component
+ without manually passing props through each level

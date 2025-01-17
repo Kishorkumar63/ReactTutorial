@@ -1,0 +1,208 @@
+[
+  {
+    "id": 1,
+    "name": "Product 1",
+    "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/41akRAbexAL.AC_SL240_.jpg",
+    "qty": 10,
+    "description": "This is the description for Product 1.",
+    "price": 19.99,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Product 2",
+    "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/71zHrg0MPTL.AC_SL240_.jpg",
+    "qty": 5,
+    "description": "This is the description for Product 2.",
+    "price": 29.99,
+    "rating": 4.2
+  },
+  {
+    "id": 3,
+    "name": "Product 3",
+    "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/61SgexiVsjL.AC_SL240_.jpg",
+    "qty": 8,
+    "description": "This is the description for Product 3.",
+    "price": 14.99,
+    "rating": 4.8
+  },
+  {
+    "id": 4,
+    "name": "Product 4",
+    "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/71yzBIh+nqL.AC_SL240_.jpg",
+    "qty": 12,
+    "description": "This is the description for Product 4.",
+    "price": 39.99,
+    "rating": 3.9
+  },
+  {
+    "id": 5,
+    "name": "Product 5",
+    "imageUrl": "https://images-eu.ssl-images-amazon.com/images/G/31/img18/Fresh/Feb24/All_fruits.jpg",
+    "qty": 3,
+    "description": "This is the description for Product 5.",
+    "price": 24.99,
+    "rating": 4.7
+  },
+  {
+    "id": 6,
+    "name": "Product 6",
+    "imageUrl": "https://m.media-amazon.com/images/I/51o7jG4atBL._AC_UL480_FMwebp_QL65_.jpg",
+    "qty": 7,
+    "description": "This is the description for Product 6.",
+    "price": 17.99,
+    "rating": 4.1
+  },
+  {
+    "id": 7,
+    "name": "Product 7",
+    "imageUrl": "https://m.media-amazon.com/images/I/317l6mRbFPL._SX300_SY300_QL70_FMwebp_.jpg",
+    "qty": 15,
+    "description": "This is the description for Product 7.",
+    "price": 32.99,
+    "rating": 4.3
+  },
+  {
+    "id": 8,
+    "name": "Product 8",
+    "imageUrl": "https://m.media-amazon.com/images/I/41GAnuY2-DL._SX300_SY300_QL70_FMwebp_.jpg",
+    "qty": 2,
+    "description": "This is the description for Product 8.",
+    "price": 21.99,
+    "rating": 4.9
+  },
+  {
+    "id": 9,
+    "name": "Product 9",
+    "imageUrl": "https://m.media-amazon.com/images/I/71657TiFeHL._AC_UY327_FMwebp_QL65_.jpg",
+    "qty": 9,
+    "description": "This is the description for Product 9.",
+    "price": 18.99,
+    "rating": 4.0
+  },
+  {
+    "id": 10,
+    "name": "Product 10",
+    "imageUrl": "https://m.media-amazon.com/images/I/71v2jVh6nIL._AC_UY327_FMwebp_QL65_.jpg",
+    "qty": 6,
+    "description": "This is the description for Product 10.",
+    "price": 27.99,
+    "rating": 4.6
+  },
+  {
+    "id": 11,
+    "name": "Product 11",
+    "imageUrl": "https://example.com/images/product11.jpg",
+    "qty": 11,
+    "description": "This is the description for Product 11.",
+    "price": 31.99,
+    "rating": 3.8
+  },
+  {
+    "id": 12,
+    "name": "Product 12",
+    "imageUrl": "https://example.com/images/product12.jpg",
+    "qty": 4,
+    "description": "This is the description for Product 12.",
+    "price": 23.99,
+    "rating": 4.4
+  },
+  {
+    "id": 13,
+    "name": "Product 13",
+    "imageUrl": "https://example.com/images/product13.jpg",
+    "qty": 13,
+    "description": "This is the description for Product 13.",
+    "price": 16.99,
+    "rating": 4.7
+  },
+  {
+    "id": 14,
+    "name": "Product 14",
+    "imageUrl": "https://example.com/images/product14.jpg",
+    "qty": 1,
+    "description": "This is the description for Product 14.",
+    "price": 35.99,
+    "rating": 4.2
+  },
+  {
+    "id": 15,
+    "name": "Product 15",
+    "imageUrl": "https://example.com/images/product15.jpg",
+    "qty": 14,
+    "description": "This is the description for Product 15.",
+    "price": 20.99,
+    "rating": 4.9
+  },
+  {
+    "id": 16,
+    "name": "Product 16",
+    "imageUrl": "https://example.com/images/product16.jpg",
+    "qty": 10,
+    "description": "This is the description for Product 16.",
+    "price": 28.99,
+    "rating": 4.0
+  },
+  {
+    "id": 17,
+    "name": "Product 17",
+    "imageUrl": "https://example.com/images/product17.jpg",
+    "qty": 5,
+    "description": "This is the description for Product 17.",
+    "price": 15.99,
+    "rating": 4.6
+  },
+  {
+    "id": 18,
+    "name": "Product 18",
+    "imageUrl": "https://example.com/images/product18.jpg",
+    "qty": 8,
+    "description": "This is the description for Product 18.",
+    "price": 33.99,
+    "rating": 3.8
+  },
+  {
+    "id": 19,
+    "name": "Product 19",
+    "imageUrl": "https://example.com/images/product19.jpg",
+    "qty": 12,
+    "description": "This is the description for Product 19.",
+    "price": 22.99,
+    "rating": 4.4
+  },
+  {
+    "id": 20,
+    "name": "Product 20",
+    "imageUrl": "https://example.com/images/product20.jpg",
+    "qty": 3,
+    "description": "This is the description for Product 20.",
+    "price": 26.99,
+    "rating": 4.7
+  },
+  {
+    "id": 21,
+    "name": "Product 21",
+    "imageUrl": "https://example.com/images/product21.jpg",
+    "qty": 7,
+    "description": "This is the description for Product 21.",
+    "price": 18.99,
+    "rating": 4.1
+  },
+  {
+    "id": 22,
+    "name": "Product 22",
+    "imageUrl": "https://example.com/images/product22.jpg",
+    "qty": 15,
+    "description": "This is the description for Product 22.",
+    "price": 30.99,
+    "rating": 4.3
+  },
+  {
+    "id": 23,
+    "name": "Product 23",
+    "imageUrl": "https://example.com/images/product23.jpg",
+    "qty": 2,
+    "description": "This is the description for Product 23."
+
+  }
+]

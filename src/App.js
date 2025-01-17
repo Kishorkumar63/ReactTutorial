@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-// import "./App.css";
+  import "./App.css";
 import Bmi from "./components/BMICalculator/Bmi";
 import Password from "./components/Passworgenerator/Password";
 import Pratice from "./components/Pratice";
@@ -13,7 +13,7 @@ import { Userefer } from "./components/UseRef/Useref";
 import FoucsRef from "./components/UseRef/FoucsRef";
 import Callback from "./components/ColorPicker/Callback";
 import { Colorpicker } from "./components/ColorPicker/Colorpicker";
-
+import Grandparent from "./components/useContext/Grandparent"
 function App() {
   return (
     <div className="App">
@@ -32,7 +32,9 @@ function App() {
       {/* <Useref/> */}
       {/* <Userefer/> */}
       {/* <FoucsRef/> */}
-      <Colorpicker />
+      {/* <Colorpicker /> */}
+<Grandparent/>
+    
     </div>
   );
 }
