@@ -33,7 +33,7 @@ input[type="text"] {
   border: 2px solid #3498db;
   border-radius: 5px;
 }
-button {
+/* button {
   padding: 15px 20px;
   font-size: 18px;
   color: #fff;
@@ -41,7 +41,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-}
+} */
 .generate-btn:disabled {
   background-color: #bdc3c7;
   cursor: not-allowed;

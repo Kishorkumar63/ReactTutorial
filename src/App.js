@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-  import "./App.css";
+import "./App.css";
 import Bmi from "./components/BMICalculator/Bmi";
 import Password from "./components/Passworgenerator/Password";
 import Pratice from "./components/Pratice";
@@ -13,28 +13,27 @@ import { Userefer } from "./components/UseRef/Useref";
 import FoucsRef from "./components/UseRef/FoucsRef";
 import Callback from "./components/ColorPicker/Callback";
 import { Colorpicker } from "./components/ColorPicker/Colorpicker";
-import Grandparent from "./components/useContext/Grandparent"
+import Grandparent from "./components/useContext/Grandparent";
+import Header from "./components/useContext/Header";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/useContext/Home";
+import Viewcart from "./components/useContext/Viewcart ";
 function App() {
+  const [cart, setCart] = useState([]);
   return (
     <div className="App">
-      {/* <Props name="Kishor Kumar" age={20} isMarried={true}/>
-    <Props name="Kumar" age={20} isMarried={false}/>
-    <Props name="Kumar" />
-    <PropsChildren>
-      <p>Para 1</p>
-      <p>Para 2</p>
-    </PropsChildren> */}
-      {/* <QrCode /> */}
-      {/* <Bmi/> */}
-      {/* <Effect/> */}
-      {/* <Password/> */}/{/* <Pratice/> */}
-      {/* <Calender /> */}
-      {/* <Useref/> */}
-      {/* <Userefer/> */}
-      {/* <FoucsRef/> */}
-      {/* <Colorpicker /> */}
-<Grandparent/>
-    
+      <BrowserRouter>
+        <Header cart={cart} />
+        <div className="container">
+          <Routes>
+            <Route element={<Home cart={cart} setCart={setCart} />} path="/" />
+            <Route
+              element={<Viewcart cart={cart} setCart={setCart} />}
+              path="/cart"
+            />
+          </Routes>
+        </div>
+      </BrowserRouter>
     </div>
   );
 }
