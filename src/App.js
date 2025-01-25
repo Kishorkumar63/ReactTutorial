@@ -18,23 +18,26 @@ import Header from "./components/useContext/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/useContext/Home";
 import Viewcart from "./components/useContext/Viewcart ";
+export const cartContext=createContext() 
 function App() {
   const [cart, setCart] = useState([]);
   return (
+    <cartContext.Provider value={{cart,setCart}}>
     <div className="App">
       <BrowserRouter>
         <Header cart={cart} />
         <div className="container">
           <Routes>
-            <Route element={<Home cart={cart} setCart={setCart} />} path="/" />
+            <Route element={<Home  />} path="/" />
             <Route
-              element={<Viewcart cart={cart} setCart={setCart} />}
+              element={<Viewcart/>}
               path="/cart"
             />
           </Routes>
         </div>
       </BrowserRouter>
     </div>
+    </cartContext.Provider>
   );
 }
 

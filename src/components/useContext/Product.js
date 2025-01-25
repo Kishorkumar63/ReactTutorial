@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./product.css";
-const Product = ({ product, cart, setCart }) => {
+import { cartContext } from "../../App";
+const Product = ({ product }) => {
+  const {cart, setCart} = useContext(cartContext);
   const addCart = () => {
     setCart([...cart, product]);
     console.log(cart);
-    
   };
   const removeCart = () => {
-    setCart(cart.filter(c=>c.id!==product.id))
+    setCart(cart.filter((c) => c.id !== product.id));
   };
   return (
     <div className="product">

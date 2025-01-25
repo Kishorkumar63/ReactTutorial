@@ -1,9 +1,11 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import data from "./product.json"
 import Product from './Product'
 import "./Home.css"
-const Home = ({cart,setCart}) => {
+import { cartContext } from '../../App'
+const Home = () => {
   const [products,setProducts]=useState(data)
+  const {cart,setCart}=useContext(cartContext)
   // console.log(products);
   
   return (
