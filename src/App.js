@@ -22,22 +22,25 @@ export const cartContext=createContext()
 function App() {
   const [cart, setCart] = useState([]);
   return (
-    <cartContext.Provider value={{cart,setCart}}>
-    <div className="App">
-      <BrowserRouter>
-        <Header cart={cart} />
-        <div className="container">
-          <Routes>
-            <Route element={<Home  />} path="/" />
-            <Route
-              element={<Viewcart/>}
-              path="/cart"
-            />
-          </Routes>
-        </div>
-      </BrowserRouter>
-    </div>
-    </cartContext.Provider>
+    // <cartContext.Provider value={{cart,setCart}}>
+    // <div className="App">
+    //   <BrowserRouter>
+    //     <Header cart={cart} />
+    //     <div className="container">
+    //       <Routes>
+    //         <Route element={<Home  />} path="/" />
+    //         <Route
+    //           element={<Viewcart/>}
+    //           path="/cart"
+    //         />
+    //       </Routes>
+    //     </div>
+    //   </BrowserRouter>
+    // </div>
+    // </cartContext.Provider>
+<Effect/>
+    
+    
   );
 }
 

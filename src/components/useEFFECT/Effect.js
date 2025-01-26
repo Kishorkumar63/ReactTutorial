@@ -10,7 +10,7 @@ const Effect = () => {
   //   },[]) //2.Dependency Array
 
   //no Dependency
-  //Mount Means => Call or load
+  //Mount Means =>  load
   //   useEffect(() => {
   //     console.log("I am Non Dependency useEffect");
   //   });
@@ -39,8 +39,19 @@ const Effect = () => {
 
   // State  Counter Clean Up Code
 //  useEffect(()=>{
-//   console.log("haii");
+//   console.log("I am state COunt ");
+//   return ()=>console.log("Re-render CleanUp");
+  
 //  },[count])
+useEffect(()=>{
+const random=Math.floor(Math.random()*1000)
+const timer=setInterval(()=>{
+  console.log(`${random} Re-render`);
+  
+},1000)
+return ()=>clearInterval(timer);
+
+})
   return (
     <div>
       <h3>Count : {count}</h3>
