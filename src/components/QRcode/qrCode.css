@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@300;400&family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@300;400&family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap");
 
 * {
   padding: 0%;
@@ -32,7 +32,7 @@ input[type="text"] {
   font-size: 16px;
   border: 2px solid #3498db;
   border-radius: 5px;
-}
+} */
 /* button {
   padding: 15px 20px;
   font-size: 18px;
@@ -42,7 +42,7 @@ input[type="text"] {
   cursor: pointer;
   transition: background-color 0.3s;
 } */
-.generate-btn:disabled {
+/* .generate-btn:disabled {
   background-color: #bdc3c7;
   cursor: not-allowed;
 }
@@ -62,4 +62,4 @@ input[type="text"] {
 }
 .footer {
   margin-top: 30px;
-}
+} */

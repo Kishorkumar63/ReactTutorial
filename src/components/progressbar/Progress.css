@@ -1,0 +1,14 @@
+.progress-container{
+    height: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-radius: 30px;
+  }
+  .progress{
+    height: 100%;
+    width: 100%;
+   
+    background-color: tomato;
+    /* transform: translateX(-10px); */
+  }

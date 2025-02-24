@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import data from "./product.json"
 import Product from './Product'
-import "./Home.css"
+//import "./Home.css"
 import { cartContext } from '../../App'
 const Home = () => {
   const [products,setProducts]=useState(data)
